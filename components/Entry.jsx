@@ -12,7 +12,7 @@ export default function Entry(props) {
                 <img 
                     className="marker"
                     src="../images/location.png" 
-                    alt="map marker icon"
+                    alt=""
                 />
                 <span className="country">{props.country}</span>
                 <a href={props.googleMapsLink} target="_blank">View on Google Maps</a>
